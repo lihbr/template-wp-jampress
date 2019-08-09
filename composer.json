@@ -1,0 +1,88 @@
+{
+  "name": "pirate-pixel",
+  "description": "Boilerplate for WordPress project",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "type": "wordpress",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.7.3",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download"
+        },
+        "require": {
+          "philippbaschke/acf-pro-installer": "^1.0",
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "corysimmons/wp-sync-db",
+        "version": "master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "https://github.com/corysimmons/wp-sync-db",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wp-sync-db/wp-sync-db-media-files",
+        "version": "master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "https://github.com/wp-sync-db/wp-sync-db-media-files",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ],
+  "require": {
+    "philippbaschke/acf-pro-installer": "^1.0",
+    "composer/installers": "~1.0",
+    "php": ">=5.5.0",
+    "wpackagist-plugin/acf-theme-code": "*",
+    "advanced-custom-fields/advanced-custom-fields-pro": "*",
+    "wpackagist-plugin/akismet": "*",
+    "wpackagist-plugin/duplicate-post": "*",
+    "wpackagist-plugin/force-regenerate-thumbnails": "*",
+    "wpackagist-plugin/wordpress-seo": "*",
+    "wpackagist-plugin/wp-pagenavi": "*",
+    "corysimmons/wp-sync-db": "master",
+    "wp-sync-db/wp-sync-db-media-files": "master",
+    "vlucas/phpdotenv": "^2.2"
+  },
+  "require-dev": {
+    "wpackagist-plugin/duplicate-post": "*",
+    "wpackagist-plugin/force-regenerate-thumbnails": "*"
+  },
+  "extra": {
+    "wordpress-install-dir": "wp",
+    "installer-paths": {
+      "app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "app/plugins/{$name}/": [
+        "src/type:wordpress-plugin"
+      ],
+      "app/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    }
+  }
+}

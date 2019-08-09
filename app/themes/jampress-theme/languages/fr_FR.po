@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: First Pixel\n"
+"POT-Creation-Date: 2018-10-15 11:52+0200\n"
+"PO-Revision-Date: 2018-10-15 11:53+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/Classes/GoogleAnalyticsOpt.php:55
+msgctxt "ga_enabled"
+msgid "Google Analytics is activated with the following ID:"
+msgstr ""
+
+#: inc/Classes/GoogleAnalyticsOpt.php:57
+msgctxt "ga_disabled"
+msgid ""
+"Google Analytics is not activated, maybe the given ID is not a valid ID!"
+msgstr ""
+
+#: inc/core/_clean-admin.php:76
+msgid "jamPress"
+msgstr "jamPress"
+
+#: inc/core/_config.php:82
+msgid "I agree"
+msgstr "J'accepte"
+
+#: inc/core/_config.php:83
+msgid ""
+"By continuing your navigation, you accept the deposit of cookies to improve "
+"your browsing, offer you buttons for sharing or uploading content from "
+"social platforms, and perform statistics visits."
+msgstr ""
+"En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de "
+"Cookies (ou autres traceurs) pour réaliser des statistiques anonymes de "
+"visites."
+
+#: inc/core/_config.php:84
+msgid "Learn more."
+msgstr "En savoir plus."
+
+#: inc/core/_config.php:94
+msgid "Header main menu"
+msgstr "Menu principale du header"
+
+#: inc/posttypes/_model.php:7
+#, fuzzy
+#| msgid "Models"
+msgctxt "Postype : Nom post"
+msgid "Models"
+msgstr "Modèles"
+
+#: inc/posttypes/_model.php:8
+#, fuzzy
+#| msgid "Model"
+msgctxt "Postype : Nom post singulier"
+msgid "Model"
+msgstr "Modèle"
+
+#: inc/posttypes/_model.php:9
+#, fuzzy
+#| msgid "All models"
+msgctxt "Postype : Tous les posts"
+msgid "All models"
+msgstr "Tous les modèles"
+
+#: inc/posttypes/_model.php:10
+#, fuzzy
+#| msgid "Add model"
+msgctxt "Postype : Ajouter un nouveau"
+msgid "Add model"
+msgstr "Ajouter un modèle"
+
+#: inc/posttypes/_model.php:11
+#, fuzzy
+#| msgid "Add new model"
+msgctxt "Postype : Ajouter un nouveau post"
+msgid "Add new model"
+msgstr "Ajouter un nouveau modèle"
+
+#: inc/posttypes/_model.php:12
+#, fuzzy
+#| msgid "Edit model"
+msgctxt "Postype : Editer post"
+msgid "Edit model"
+msgstr "Éditer un modèle"
+
+#: inc/posttypes/_model.php:13
+#, fuzzy
+#| msgid "New model"
+msgctxt "Postype : Nouveau post"
+msgid "New model"
+msgstr "Nouveau modèle"
+
+#: inc/posttypes/_model.php:14
+#, fuzzy
+#| msgid "View model"
+msgctxt "Postype : Voir post"
+msgid "View model"
+msgstr "Voir"
+
+#: inc/posttypes/_model.php:15
+#, fuzzy
+#| msgid "Find model"
+msgctxt "Postype : Chercher post"
+msgid "Find model"
+msgstr "Trouver un modèle"
+
+#: inc/posttypes/_model.php:16
+#, fuzzy
+#| msgid "No result"
+msgctxt "Postype : Post non trouver"
+msgid "No result"
+msgstr "Aucun résultat de recherche"
+
+#: inc/posttypes/_model.php:17
+#, fuzzy
+#| msgid "No result"
+msgctxt "Postype : Post non trouver dans la corbeille"
+msgid "No result"
+msgstr "Aucun résultat de recherche"
+
+#: inc/posttypes/_model.php:18
+#, fuzzy
+#| msgid "Parent model:"
+msgctxt "Postype : Post parent"
+msgid "Parent model:"
+msgstr "Modèle parent :"
+
+#: inc/posttypes/_model.php:19
+#, fuzzy
+#| msgid "Models"
+msgctxt "Postype : Nom menu"
+msgid "Models"
+msgstr "Modèles"
+
+#: inc/posttypes/_model.php:46
+msgid "Exemple"
+msgstr "Exemple"
+
+#: templates/misc/fourofour.php:3
+msgid "The page you are looking for doesn't exist or is not available anymore."
+msgstr "La page que vous consultez n’existe pas ou n’est plus disponible."
+
+#: templates/misc/fourofour.php:4
+msgid "Back to Home"
+msgstr "Retour sur la page d’accueil"
+
+#: templates/search/search-item.php:19
+msgid "Read more"
+msgstr "En savoir plus"
+
+#: templates/search/search-result.php:12
+msgid "No result"
+msgstr "Aucun résultat de recherche"
+
+#: templates/search/search-result.php:13
+msgid "Try to search again"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "jamPress"
+msgstr "jamPress"
+
+#. Description of the plugin/theme
+msgid "Do what you want 'cuz a pirate is free!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "edhbr"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://edhbr.fr/"
+msgstr ""
+
+#~ msgctxt "Postype Question : Nom post"
+#~ msgid "Questions"
+#~ msgstr "Questions"
+
+#~ msgctxt "Postype Question : Nom post singulier"
+#~ msgid "Question"
+#~ msgstr "Question"
+
+#~ msgctxt "Postype Question : Tous les posts"
+#~ msgid "All questions"
+#~ msgstr "Toutes les questions"
+
+#~ msgctxt "Postype Question : Ajouter un nouveau"
+#~ msgid "Add question"
+#~ msgstr "Ajouter une question"
+
+#~ msgctxt "Postype Question : Ajouter un nouveau post"
+#~ msgid "Add new question"
+#~ msgstr "Ajouter une nouvelle question"
+
+#~ msgctxt "Postype Question : Editer post"
+#~ msgid "Edit question"
+#~ msgstr "Éditer une question"
+
+#~ msgctxt "Postype Question : Nouveau post"
+#~ msgid "New question"
+#~ msgstr "Nouvelle question"
+
+#~ msgctxt "Postype Question : Voir post"
+#~ msgid "View question"
+#~ msgstr "Voir"
+
+#~ msgctxt "Postype Question : Chercher post"
+#~ msgid "Find question"
+#~ msgstr "Trouver une question"
+
+#, fuzzy
+#~| msgid "No result"
+#~ msgctxt "Postype Question : Post non trouver"
+#~ msgid "No result"
+#~ msgstr "Aucun résultat de recherche"
+
+#, fuzzy
+#~| msgid "No result"
+#~ msgctxt "Postype Question : Post non trouver dans la corbeille"
+#~ msgid "No result"
+#~ msgstr "Aucun résultat de recherche"
+
+#~ msgctxt "Postype Question : Post parent"
+#~ msgid "Parent question:"
+#~ msgstr "Question parente :"
+
+#~ msgctxt "Postype Question : Nom menu"
+#~ msgid "Questions"
+#~ msgstr "Questions"
+
+#~ msgid "http://www.36pixels.fr"
+#~ msgstr "http://www.36pixels.fr"
+
+#~ msgid "The 36 Pixels starter theme for WordPress."
+#~ msgstr "Starter Thème de 36 Pixels"
+
+#~ msgid "the 36 Pixels team"
+#~ msgstr "Equipe 36 Pixels"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid ""
+#~ "By continuing to use this site you are agreeing to our cookie management "
+#~ "policy."
+#~ msgstr ""
+#~ "En continuant votre navigation, vous acceptez l’utilisation des cookies "
+#~ "sur le site."
+
+#~ msgid "Welcome"
+#~ msgstr "Bienvenue"
+
+#~ msgid "404"
+#~ msgstr "404"
+
+#~ msgid "All the industries"
+#~ msgstr "Toutes les industries"
