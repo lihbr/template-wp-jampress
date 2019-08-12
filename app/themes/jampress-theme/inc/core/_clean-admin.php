@@ -74,6 +74,7 @@ add_action( 'wp_before_admin_bar_render', 'jamPress_mytheme_admin_bar_render' );
 wp_admin_css_color(
   'jamPress',
   __( 'jamPress' ),
+  THEME_URL . 'style.css',
   array('#07273E', '#14568A', '#D54E21', '#2683AE'),
   array( 'base' => '#e5f8ff', 'focus' => '#fff', 'current' => '#fff' )
 );

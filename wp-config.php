@@ -94,6 +94,8 @@ if(!PRODUCTION) {
 } else {
   define('WP_DEBUG', false);
   define('WP_DEBUG_LOG', false);
+  error_reporting(0);
+  @ini_set('display_errors', 0);
 }
 
 /** force download without FTP */

@@ -28,6 +28,19 @@
     {
       "type": "package",
       "package": {
+        "name": "edhbr/misc-wp-jampress",
+        "version": "master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "https://github.com/edhbr/misc-wp-jampress",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "corysimmons/wp-sync-db",
         "version": "master",
         "type": "wordpress-plugin",
@@ -59,8 +72,12 @@
     "wpackagist-plugin/acf-theme-code": "*",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "wpackagist-plugin/akismet": "*",
+    "wpackagist-plugin/better-wp-security": "*",
+    "wpackagist-plugin/contact-form-7": "*",
     "wpackagist-plugin/duplicate-post": "*",
+    "wpackagist-plugin/easy-wp-smtp": "*",
     "wpackagist-plugin/force-regenerate-thumbnails": "*",
+    "edhbr/misc-wp-jampress": "master",
     "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/wp-pagenavi": "*",
     "corysimmons/wp-sync-db": "master",
@@ -72,13 +89,12 @@
     "wpackagist-plugin/force-regenerate-thumbnails": "*"
   },
   "extra": {
-    "wordpress-install-dir": "wp",
     "installer-paths": {
       "app/mu-plugins/{$name}/": [
         "type:wordpress-muplugin"
       ],
       "app/plugins/{$name}/": [
-        "src/type:wordpress-plugin"
+        "type:wordpress-plugin"
       ],
       "app/themes/{$name}/": [
         "type:wordpress-theme"
